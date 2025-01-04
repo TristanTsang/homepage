@@ -1,0 +1,79 @@
+body {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  margin: 0px;
+}
+
+.floating {
+  box-shadow: 2.5px 2.5px 10px 1px rgba(0, 0, 0, 0.3);
+}
+
+header {
+  background-color: rgb(38, 88, 188);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0px;
+}
+
+.header-box {
+  padding: 10px;
+  background-color: white;
+  width: 60%;
+}
+.header-image {
+  background-color: aqua;
+  color: white;
+  display: flex;
+  align-items: end;
+  font-size: 20px;
+  justify-content: center;
+  float: left;
+  width: 250px;
+  height: 250px;
+  margin: 0px -85px -45px 0px;
+  transform: translateX(-100px) translateY(-50px);
+}
+
+.about-me {
+  padding: none;
+  font-size: 20px;
+}
+
+.portfolio {
+  display: grid;
+  padding: 20px;
+  width: 100%;
+  grid-template-columns: repeat(auto-fill, 300px);
+  justify-items: center;
+  justify-content: center;
+
+  gap: 10px;
+  box-sizing: border-box;
+}
+
+.portfolio-item {
+  width: 300px;
+  height: 300px;
+  background-color: red;
+}
+
+.footer-image {
+  width: 400px;
+  background-color: white;
+  height: 200px;
+}
+
+.contact-info {
+  width: 50%;
+}
+footer {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  padding: 20px;
+  background-color: rgb(38, 88, 188);
+  box-sizing: border-box;
+}
